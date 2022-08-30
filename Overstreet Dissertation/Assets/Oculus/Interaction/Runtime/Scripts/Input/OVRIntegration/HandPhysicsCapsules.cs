@@ -31,7 +31,7 @@ namespace Oculus.Interaction.Input
         private GameObject _capsulesGO;
         private List<BoneCapsule> _capsules;
         public IList<BoneCapsule> Capsules { get; private set; }
-        private OVR.skeleton2 _skeleton;
+        private OVRPlugin.Skeleton2 _skeleton;
         private bool _capsulesAreActive;
         protected bool _started;
 

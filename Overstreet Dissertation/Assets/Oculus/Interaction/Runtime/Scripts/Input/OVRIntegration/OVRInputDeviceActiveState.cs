@@ -58,10 +58,6 @@ namespace Oculus.Interaction.Input
             _controllerTypes = controllerTypes;
         }
 
-        internal class Controller
-        {
-        }
-
         #endregion
     }
 }

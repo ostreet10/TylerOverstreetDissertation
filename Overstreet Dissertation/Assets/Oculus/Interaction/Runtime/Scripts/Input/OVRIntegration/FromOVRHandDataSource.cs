@@ -20,6 +20,7 @@
 
 using UnityEngine;
 using UnityEngine.Assertions;
+using static OVRSkeleton;
 
 namespace Oculus.Interaction.Input
 {
@@ -61,8 +62,8 @@ namespace Oculus.Interaction.Input
         }
 
         private readonly HandDataAsset _handDataAsset = new HandDataAsset();
-        private FromOVRHandDataSource _ovrHand;
-        private OVRInputDeviceActiveState.Controller _ovrController;
+        private OVRHand _ovrHand;
+        private OVRInput.Controller _ovrController;
         private float _lastHandScale;
         private HandDataSourceConfig _config;
 
@@ -94,12 +95,12 @@ namespace Oculus.Interaction.Input
             if (_handedness == Handedness.Left)
             {
                 _ovrHand = CameraRigRef.LeftHand;
-                _ovrController = OVRInputDeviceActiveState.Controller.LHand;
+                _ovrController = OVRInput.Controller.LHand;
             }
             else
             {
                 _ovrHand = CameraRigRef.RightHand;
-                _ovrController = OVRInputDeviceActiveState.Controller.RHand;
+                _ovrController = OVRInput.Controller.RHand;
             }
 
             UpdateConfig();

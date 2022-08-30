@@ -22,7 +22,7 @@ using UnityEngine;
 namespace Oculus.Interaction
 {
     [DefaultExecutionOrder(-1)]
-    public class InteractionOVRCameraRig 
+    public class InteractionOVRCameraRig : OVRCameraRig
     {
         private bool _isLateUpdate = false;
 

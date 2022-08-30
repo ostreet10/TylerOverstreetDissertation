@@ -26,17 +26,17 @@ namespace Oculus.Interaction.Input
 {
     public interface IOVRCameraRigRef
     {
-        IOVRCameraRigRef CameraRig { get; }
+        OVRCameraRig CameraRig { get; }
         /// <summary>
         /// Returns a valid OVRHand object representing the left hand, if one exists on the
         /// OVRCameraRig. If none is available, returns null.
         /// </summary>
-        FromOVRHandDataSource LeftHand { get; }
+        OVRHand LeftHand { get; }
         /// <summary>
         /// Returns a valid OVRHand object representing the right hand, if one exists on the
         /// OVRCameraRig. If none is available, returns null.
         /// </summary>
-        FromOVRHandDataSource RightHand { get; }
+        OVRHand RightHand { get; }
         Transform LeftController { get; }
         Transform RightController { get; }
 
