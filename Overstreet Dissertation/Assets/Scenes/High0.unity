@@ -963,6 +963,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1089647446 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: 9d4133d5d30b644bd87802a347eaccbe,
+    type: 3}
+  m_PrefabInstance: {fileID: 38700692}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1089647447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089647446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bdf2abe5e7548046bd2958213f447c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HandDominance: {fileID: 0}
+  ConditionOrder: {fileID: 0}
+  Participant: {fileID: 0}
+  ArmLength: {fileID: 0}
+  Shoulderheight: {fileID: 0}
+  participant: 0
+  arm: 0
+  shoulder: 0
+  order: 0
+  hand: 0
 --- !u!1 &1242364379
 GameObject:
   m_ObjectHideFlags: 0
